@@ -11,11 +11,11 @@
     --black-for-logo: #000;
     --silver-footer: #FFFFFF99;
     --dominant-font: 'Roboto', sans-serif;
+    --silver-icon: #AFB1B8;
 }
 html {
     box-sizing: border-box;
 }
-
 *, *::before, *::after { box-sizing: inherit; }
 body{
     margin-right: 0;
@@ -38,6 +38,10 @@ div.container{
 section.section{
     padding-top: 94px;
     padding-bottom: 94px;
+}
+div.footer-twitter{
+    margin-left: 70px;
+    margin-top: 12px;
 }
 
 /* header and footer */
@@ -73,14 +77,12 @@ li.navigation-item a{
     text-decoration: none;
 }
 li.navigation-item a:hover, 
-li.contact-item a:hover{
+li.contact-item a:hover,
+li.contact-item a:hover svg{
     text-decoration: none;
     color: var(--color-blue);
     fill: var(--color-blue);
     transition: var(--transition);
-}
-li.contact-item a:hover {
-    text-decoration: none;
 }
 li.contact-item a{
     font-size: 14px;
@@ -110,7 +112,7 @@ li.contact-item:first-child {
 
 footer.footer{
     background-color: var(--dark-blue);
-    padding: 56px 0;
+    padding: 60px 0 56px;
 }
 li.address-contact-item a{
     font-style: normal;
@@ -161,11 +163,60 @@ nav.nav-studio{
 }
 div.footer-container-kiev{
     /* padding: 56px 0; */
+    display: flex;
 }
 svg.contact-icon-let{
     display: inline-block;
     margin-right: 10px;
+    fill: var(--silver-gray);
 }
+a.icon-link svg.icon{
+    border-radius: 50px;
+    width: 44px;
+    height: 44px;
+    fill: var(--silver-icon);
+    /* margin-right: 10px; */
+}
+a.icon-link{
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+ul.facebook-block li:last-child a.icon-link{
+    margin-right: 0;
+}
+a.icon-link:hover svg{
+    width: 44px;
+    height: 44px;
+    border-radius: 50px;
+
+    fill: var(--white);
+    background-color: var(--color-blue);
+    transition: var(--transition);
+}
+div.footer-twitter h4{
+    color: var(--white);
+    font-family: var(--dominant-font);
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+div.footer-twitter svg.icon {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+div.footer-twitter a.icon-link:hover svg {
+    width: 44px;
+    height: 44px;
+    border-radius: 50px;
+
+    fill: var(--white);
+    background-color: var(--color-blue);
+    transition: var(--transition);
+}
+
 
 
 
@@ -198,7 +249,7 @@ section.main-section{
     url("../images/img.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 div.container-effective-solutions button[type="button"]{                      /*big blue button*/
@@ -217,7 +268,7 @@ div.container-effective-solutions button[type="button"]{                      /*
     background-color: var(--color-blue);
     color: var(--white);
 }
-button[type="button"]:hover {
+div.container-effective-solutions button[type="button"]:hover {
     transition: var(--transition);
     background-color: var(--button-hover);
 }
@@ -295,8 +346,8 @@ div.our-people-block{
     /* margin-top: 30px; */
     /* margin-bottom: 30px; */
     /* border: 1px dashed gold; */
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 27px;
+    padding-bottom: 26px;
 }
 li.our-people-item{
     background-color: #fff;
@@ -324,7 +375,43 @@ div.container-effective-solutions{
 li.our-people-item img[src*="./images/pe"]{
     display: block;
 }
+ul.regular-customers{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+a.regular-customers-link{
+    width: 170px;
+    height: 92px;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+   
+    border: 1px solid var(--silver-icon);
+}
+ a.regular-customers-link:hover svg {
+     fill: var(--color-blue);
+     transition: var(--transition);
+ }
+ a.regular-customers-link:hover{
+     border: 1px solid var(--color-blue);
+     transition: var(--transition);
+ }
+a.regular-customers-link svg{
+    fill: var(--silver-icon);
+}
+li.regular-customers-item{
 
+}
+li.attention-to-details-items img[src*="./images/ko"] {
+    margin-bottom: 30px;
+}
+ul.facebook-block{
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-around; */
+    margin-top: 20px;
+}
 
 
 /* portfolio */
