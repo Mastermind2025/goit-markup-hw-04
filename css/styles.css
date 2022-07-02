@@ -412,6 +412,19 @@ ul.facebook-block{
     /* justify-content: space-around; */
     margin-top: 20px;
 }
+svg.attention-ant{
+    width: 70px;
+    height: 70px;
+}
+div.attention-to-block{
+    width: 270px;
+    background-color: var(--light-silver);
+    /* border: 1px dashed red; */
+    padding: 24px 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
 
 
 /* portfolio */
