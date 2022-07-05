@@ -44,7 +44,7 @@ div.footer-twitter{
     margin-top: 12px;
 }
 
-/* header and footer */
+                                        /* header and footer */
 
 header.header{
     border-bottom: 1px solid #ECECEC;
@@ -108,7 +108,6 @@ li.contact-item:last-child{
 }
 li.contact-item:first-child {
     margin-left: 0;
-    /* border: 1px dashed green; */
 }
 
 footer.footer{
@@ -154,8 +153,6 @@ a.main-logo span{
 }
 a.bottom-logo{
     color: var(--white);
-    /* padding-bottom: 20px; */
-    /* display: block; */
     margin-bottom: 20px;
 }
 nav.nav-studio{
@@ -163,7 +160,6 @@ nav.nav-studio{
     align-items: center;
 }
 div.footer-container-kiev{
-    /* padding: 56px 0; */
     display: flex;
 }
 svg.contact-icon-let{
@@ -176,7 +172,6 @@ a.icon-link svg.icon{
     width: 44px;
     height: 44px;
     fill: var(--silver-icon);
-    /* margin-right: 10px; */
 }
 a.icon-link{
     display: inline-block;
@@ -222,7 +217,6 @@ a:focus,
 li.navigation-item a:focus,
 li.contact-item a:focus,
 li.contact-item a:focus svg{
-  /* box-shadow: 0 0 3px 1px var(--button-hover); */
   color: var(--color-blue);
   fill: var(--color-blue);
   
@@ -235,15 +229,13 @@ a.icon-link:focus svg{
    fill: var(--white);
 }
  address li.address-contact-item a:focus{
- color: var(--color-blue);
+    color: var(--color-blue);
 }
 
 
-
-/* main page */
-/* main page */
-/* main page */
-
+                                    /* main page */
+                                    /* main page */
+                                    /* main page */
 
 
 h1.main-title{
@@ -332,12 +324,10 @@ h2.what-we-do-title {
     color: var(--black);
     margin-bottom: 50px;
 }
-li.attention-to-details-items{
-}
 
 ul.what-we-do img[width="370"]{
-margin-right: 30px;
-display: block;
+    margin-right: 30px;
+    display: block;
 }
 ul.what-we-do li:last-child img[width="370"]{
     margin-right: 0;
@@ -367,9 +357,6 @@ li.our-people-item p.our-people-profession {
     margin-top: 10px;
 }
 div.our-people-block{
-    /* margin-top: 30px; */
-    /* margin-bottom: 30px; */
-    /* border: 1px dashed gold; */
     padding-top: 27px;
     padding-bottom: 26px;
 }
@@ -379,18 +366,11 @@ li.our-people-item{
     0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
-section.attention-to-details-section-for-background{
-   
-}
+
 section.what-we-do-section-for-background{
     padding-top: 0;
 }
-div.container-what-we-do{
-    
-}
-div.container-what-we-do {
-    
-}
+
 div.container-effective-solutions{
     display: flex;
     flex-direction: column;
@@ -458,9 +438,9 @@ div.attention-to-block{
 }
 
 
-/* portfolio */
-/* portfolio */
-/* portfolio */
+                                /* portfolio */
+                                /* portfolio */
+                                /* portfolio */
 
 
 
@@ -493,10 +473,7 @@ li.main-block-big-foto-items:nth-child(3n){
 li.main-block-big-foto-items:nth-last-child(-n + 3){
      margin-bottom: 0;
  }
-li.main-block-big-foto-items h3,
-li.main-block-big-foto-items p{
-   
-}
+
 li.main-block-big-foto-items img[src*="./images/lap"]{
     display: block;
  }
